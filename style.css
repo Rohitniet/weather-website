@@ -18,7 +18,7 @@
 }
 h1{
     font-size: 50px;
-   color: rgb(176, 200, 204);
+   color: rgb(253, 255, 255);
    font-family: "Kanit", sans-serif;
    border-bottom: 2px solid black;
 
@@ -52,7 +52,7 @@ h1{
 }
 
 input{
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Kanit", sans-serif;
     
     /* border-radius: 2px solid rgba(0,0,0,0.5) ; */
@@ -78,6 +78,7 @@ button{
     border: 2px solid black;
     border-radius: 15px;
     padding: 8px;
+    font-weight: 700;
 }
 .item{
     display: flex;
