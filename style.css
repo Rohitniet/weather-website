@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    /* margin-top: ; */
+}
+h1{
+    font-size: 50px;
+   color: rgb(176, 200, 204);
+   font-family: "Kanit", sans-serif;
+   border-bottom: 2px solid black;
+
+}
+.card{
+    width: 40%;
+    height: 70%;
+    background-color: aliceblue;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+
+    
+   
+}
+.user-input{
+    width: 80%;
+    display: flex ;
+    /* height: 25vh; */
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(61, 129, 188);
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+    /* height: 75%; */
+}
+
+input{
+    font-size: 15px;
+    font-family: "Kanit", sans-serif;
+    
+    /* border-radius: 2px solid rgba(0,0,0,0.5) ; */
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+#city{
+    width: 80%;
+}
+ input #add{
+    width: 20%;
+    margin: 5px;
+}
+button{
+    width: .1px;
+}
+.output{
+    background-color: #80D0C7;
+    width: 60%;
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 8px;
+}
+.item{
+    display: flex;
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    padding: 5px;
+}
